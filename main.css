@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header h1,
+section h2{
+    font-family: 'Bungee Spice', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight:normal;
+}
+
+header,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight:normal;
+    margin-bottom: 16px;
+}
+
+header{
+    padding: 24px 0;
+    background-color: rgb(255, 127, 22);    
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;    
+}
+
+header nav li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body{
+    background-color: rgb(252, 178, 40);
+}
+
+body, input, textarea{
+        font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .acesso a{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(255, 84, 4);
+    color:black;       
+    text-decoration: none;
+    margin-top: 8px;    
+}
+
+header .acesso a:hover{
+    background-color: orange;
+}
+
+section .container {
+    align-items:flex-start;
+    
+}
+
+section{
+    padding: 24px 0;
+    color: black;
+}
+
+section h2{
+    margin-bottom: 16px;   
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+    height: 300px;
+}
+
+.logo-list img{
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;    
+    }
+
+  
+.logo-list {
+    column-count: 5; 
+    margin-top: 15px;
+    
+}
+
+.logo-list li{
+    display:flex;
+    align-items: center;
+    text-align: center;    
+}
+
+.social-links img{
+    height:35px;
+    
+    
+}
+
+.social-links li{
+    display:inline;
+    margin-right: 8px;    
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.app img{
+    width: 150px;
+}
+
+.app li{
+    display:flex;
+    margin-right: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.methods{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+form input,
+form textarea,
+form button{
+    display:block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize:none;
+    height: 180px;
+}
+
+form button{
+    background-color:rgb(255, 84, 4);
+    color:black;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(255, 127, 22); 
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(255, 84, 4);
+}
+
+footer{
+    background-color: rgb(255, 84, 4);
+    color: #fff;
+    padding: 16px 0;
+}
